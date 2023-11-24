@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "671116588856",
+    "project_id": "crash-project-cp",
+    "storage_bucket": "crash-project-cp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671116588856:android:6d253b6f6f1260240373cd",
+        "android_client_info": {
+          "package_name": "com.Shade.crash_detection_and_analysis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnor1uzMwsEzxm1zJ7wObrK3ZoMunnWAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671116588856:android:45afdfb58351101e0373cd",
+        "android_client_info": {
+          "package_name": "com.Shade.crash_detection_and_health_analysis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnor1uzMwsEzxm1zJ7wObrK3ZoMunnWAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671116588856:android:1ba250a97dc18b580373cd",
+        "android_client_info": {
+          "package_name": "com.Shade.my_notes_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnor1uzMwsEzxm1zJ7wObrK3ZoMunnWAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671116588856:android:e76a3a8d5dca882d0373cd",
+        "android_client_info": {
+          "package_name": "com.example.smartfitnessandcrashdetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnor1uzMwsEzxm1zJ7wObrK3ZoMunnWAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
