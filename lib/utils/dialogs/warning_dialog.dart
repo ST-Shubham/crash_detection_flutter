@@ -1,7 +1,4 @@
 import 'dart:async';
-
-import 'package:crash_detection_and_analysis/utils/dialogs/logout_dialog.dart';
-import 'package:crash_detection_and_analysis/utils/dialogs/show_error_dialog.dart';
 import 'package:flutter/material.dart';
 
 typedef DialogOptionBuilder<T> = Map<String, T?> Function();

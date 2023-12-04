@@ -9,7 +9,6 @@ import 'package:crash_detection_and_analysis/utils/Widgets/main_page_widget.dart
 import 'package:crash_detection_and_analysis/utils/dialogs/crash_dialog.dart';
 import 'package:crash_detection_and_analysis/utils/dialogs/heart_anom_dialog.dart';
 import 'package:crash_detection_and_analysis/utils/dialogs/logout_dialog.dart';
-import 'package:crash_detection_and_analysis/utils/dialogs/show_error_dialog.dart';
 // import 'package:crash_detection_and_analysis/views/loading_view.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_sms/flutter_sms.dart';
