@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -49,6 +43,16 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBN_XnpqQqYyX5kDiGBKSnLAF1OQN9HVXU',
+    appId: '1:671116588856:web:e85c17adc80d5aef0373cd',
+    messagingSenderId: '671116588856',
+    projectId: 'crash-project-cp',
+    authDomain: 'crash-project-cp.firebaseapp.com',
+    storageBucket: 'crash-project-cp.appspot.com',
+    measurementId: 'G-LK0LXPPE51',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDnor1uzMwsEzxm1zJ7wObrK3ZoMunnWAs',
     appId: '1:671116588856:android:6d253b6f6f1260240373cd',
@@ -64,5 +68,14 @@ class DefaultFirebaseOptions {
     projectId: 'crash-project-cp',
     storageBucket: 'crash-project-cp.appspot.com',
     iosBundleId: 'com.Shade.crashDetectionAndAnalysis',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBFtnWIVDfcWzqYUbQkurEoW0Qmrmf3esw',
+    appId: '1:671116588856:ios:9f74bef8826792a30373cd',
+    messagingSenderId: '671116588856',
+    projectId: 'crash-project-cp',
+    storageBucket: 'crash-project-cp.appspot.com',
+    iosBundleId: 'com.Shade.crashDetectionAndAnalysis.RunnerTests',
   );
 }
